@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: '@system.active@'
+  application:
+    name: siamesecat
+  thymeleaf:
+    suffix: .html
+    prefix: classpath:/templates
+    cache: false
+
+system:
+  author: Ryan
+  java-version: @java.version@
